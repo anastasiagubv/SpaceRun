@@ -26,6 +26,6 @@ class SistemaLlums:
 
     def get_color_fons(self):
         if self.estat_actual == "VERD":
-            return (100, 255, 100) # Verd
+            return (40, 80, 40)  # Verd fosc més atmosfèric
         else:
-            return (255, 100, 100) # Vermell
+            return (80, 40, 40)  # Vermell fosc més atmosfèric
