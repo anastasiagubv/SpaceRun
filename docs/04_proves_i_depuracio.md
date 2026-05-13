@@ -35,3 +35,6 @@ Durant el desenvolupament i les proves, s'han trobat els següents problemes:
 Per identificar i solucionar aquests errors s'han utilitzat les següents tècniques:
 1.  **Impressores per consola (`print()`):** Utilitzades a la Fase 3 per comprovar que la detecció de la llum vermella funcionava (`print("¡Alerta! Te has movido en luz roja.")`) abans de programar la pantalla de Game Over.
 2.  **Subratllat d'errors del VS Code (Pylance):** Per detectar errors de sintaxi en temps real (com parèntesis no tancats o imports no resolts).
+
+| **04** | Temporitzador | Esperar 10 segons | El temps restant disminueix de 120 a 110 | Disminueix correctament | ✅ Passa |
+| **05** | Guardar rècord | Guanyar una partida amb 800 punts | El fitxer `record.json` s'actualitza a 800 | S'actualitza | ✅ Passa |
